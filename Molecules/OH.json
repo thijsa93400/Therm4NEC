@@ -1,0 +1,103 @@
+{
+	"Composition": {
+		"O": 1,
+		"H": 1
+	},
+	"States": [
+		{
+			"Name": "X^2\\Pi_{0.5}",
+			"Te": 0,
+			"S": 0.5,
+			"lambda": 1,
+			"Vibs": {
+				"omega_e": 3737.761,
+				"omegaX_e": 84.8813,
+				"omegaY_e": 0.549
+			},
+			"Rots": {
+				"B_e": 18.9108,
+				"alpha_e": 0.7242,
+				"D_e": 0.001938,
+				"beta_e": 4.32e-05
+			},
+			"Degen": {
+				"ge": 2,
+				"gIo": 1,
+				"gIe": 1
+			}
+		},
+		{
+			"Name": "X^2\\Pi_{1.5}",
+			"Te": -139.21,
+			"S": 0.5,
+			"lambda": 1,
+			"Vibs": {
+				"omega_e": 3737.486,
+				"omegaX_e": 84.8813,
+				"omegaY_e": 0.549
+			},
+			"Rots": {
+				"B_e": 18.9108,
+				"alpha_e": 0.7242,
+				"D_e": 0.001938,
+				"beta_e": 4.32e-05
+			},
+			"Degen": {
+				"ge": 2,
+				"gIo": 1,
+				"gIe": 1
+			}
+		},
+		{
+			"Name": "A^2\\Sigma^+",
+			"Te": 32684.1,
+			"S": 0.5,
+			"lambda": 0,
+			"Vibs": {
+				"omega_e": 3178.86,
+				"omegaX_e": 92.917,
+				"omegaY_e": -1.7915
+			},
+			"Rots": {
+				"B_e": 17.358,
+				"alpha_e": 0.7868,
+				"D_e": 0.002039,
+				"beta_e": 0
+			}
+		},
+		{
+			"Name": "B^2\\Sigma^+",
+			"Te": 69774,
+			"S": 0.5,
+			"lambda": 0,
+			"Vibs": {
+				"omega_e": 940,
+				"omegaX_e": 105,
+				"omegaY_e": -21.5
+			},
+			"Rots": {
+				"B_e": 5.086,
+				"alpha_e": 0,
+				"D_e": 0.000929,
+				"beta_e": 0
+			}
+		},
+		{
+			"Name": "C^2\\Sigma^+",
+			"Te": 89459.1,
+			"S": 0.5,
+			"lambda": 0,
+			"Vibs": {
+				"omega_e": 1232.9,
+				"omegaX_e": 19.1,
+				"omegaY_e": 0
+			},
+			"Rots": {
+				"B_e": 4.247,
+				"alpha_e": 0.078,
+				"D_e": 0.0002,
+				"beta_e": 0
+			}
+		}
+	]
+}
