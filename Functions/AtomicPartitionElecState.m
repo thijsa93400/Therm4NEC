@@ -46,10 +46,9 @@ Z     = zeros(size(T,2),3);
 % Potenital
 if Debug.Pot
     fprintf("State            : %s\n",State.Name);
-    fprintf("Zero point energy: %f\n",(Eelec)./eV);
+    fprintf("Zero point energy: %f\n",(State.Te*h*c)./eV);
     fprintf("Degenercy        : %f\n", State.Degen.ge);
 end
-
 % compute
 beta   = (State.Te.*h.*c)./(kb.*T');
 ebeta  = exp(-beta);

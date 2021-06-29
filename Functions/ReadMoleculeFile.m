@@ -54,6 +54,7 @@ elseif Mol.nAtom == 1
         % convert cm^-1 => m^-1
         State = Mol.States(i);
         Mol.States(i).Te = State.Te.*100;
+        Mol.States(i).Degen.ge = (State.J*2+1);
     end
     return
 else

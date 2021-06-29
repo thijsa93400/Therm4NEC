@@ -54,7 +54,8 @@ RefSp = 'O2';
 % a second species with all states but a1D and b1S electronic states
 Elecs = [0 3 4 5 6];
 
-% Species name
+% Species name, unlike the article chemkin uses / as negate symbol
+% Using / in text was
 SpName  = 'O2(/1-2,a,a)';
 
 % Compute thermo properties
